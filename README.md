@@ -1,13 +1,12 @@
 # Validador de Senha
-Classe útil para validação de senhas com Passay
-A versão da biblioteca usada foi 1.0, como segue abaixo:
+Classe útil para validação de senhas com Passay.
+A versão da biblioteca usada foi a 1.0 (confira a dependência maven no arquivo RAW)
 
-<!-- https://mvnrepository.com/artifact/org.passay/passay -->
-<dependency>
+<b><dependencia>
     <groupId>org.passay</groupId>
     <artifactId>passay</artifactId>
     <version>1.0</version>
-</dependency>
+</dependency></b>
 
 A validação pode ser totalmente personalizada, controlando mínimo e máximo
 de caracteres, presença ou não de dígitos, caracteres especiais, letras maiúsculas e minúsculas.
